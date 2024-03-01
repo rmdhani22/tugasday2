@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kalkulator"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0C5C4A"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="5dp"
+
+        />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/value1"
+    android:inputType="number"
+    android:layout_marginTop="20dp"
+    android:hint="Masukan angka yang diinginkan"
+    android:minHeight="48dp"
+    android:textColor="#7A0924"
+   />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/value2"
+    android:inputType="number"
+    android:layout_marginTop="20dp"
+    android:hint="Masukan angka yang diinginkan"
+    android:minHeight="48dp"
+    android:textColor="#7A0924"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombolpenambahan"
+        android:text="+"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#1C76A6"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tombolpengurangan"
+    android:text="-"
+    android:layout_marginTop="18dp"
+    android:backgroundTint="#1C76A6"
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tombolperkalian"
+    android:text="X"
+    android:layout_marginTop="18dp"
+    android:backgroundTint="#1C76A6"
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tombolpembagian"
+    android:text="/"
+    android:layout_marginTop="18dp"
+    android:backgroundTint="#1C76A6"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/result"
+    android:textAlignment="center"
+    android:layout_marginTop="20dp"
+    android:textSize="30sp"
+    android:text="Hasil"
+    android:textStyle="italic"
+    android:textColor="#1F1487"
+    />
+
+
+
+
+</LinearLayout>
